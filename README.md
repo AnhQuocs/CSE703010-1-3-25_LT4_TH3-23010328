@@ -2,8 +2,7 @@
 
 **Lớp:** CSE703010-1-3-25 LT4 TH3  
 **MSSV:** 23010328  
-**Ngôn ngữ:** Kotlin  
-**Ngày Hoàn Thành:** Tháng 4, 2026
+**Ngôn ngữ:** Kotlin
 
 ---
 
