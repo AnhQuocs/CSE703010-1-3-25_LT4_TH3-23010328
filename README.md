@@ -9,7 +9,7 @@
 
 ## 📋 Mô Tả Bài Thực Hành
 
-Bài thực hành này yêu cầu thiết kế và xây dựng 8 chương trình Kotlin, sau đó thực hiện kiểm thử hộp đen (Black-box Testing) toàn diện cho từng chương trình.
+Bài thực hành này yêu cầu thiết kế và xây dựng 8 bài toán, sau đó thực hiện kiểm thử hộp đen (Black-box Testing) toàn diện cho từng chương trình.
 
 ### 8 Bài Toán:
 1. ✓ Tính chu vi hình chữ nhật
