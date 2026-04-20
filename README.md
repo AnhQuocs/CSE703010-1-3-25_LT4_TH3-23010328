@@ -324,8 +324,8 @@ Kết quả chạy test:
 
 ## 👤 Thông Tin Sinh Viên
 
-- **MSSV:** 23010328
-- **Lớp:** CSE703010-1-3-25 LT4 TH3
+- **MSSV:** 23010328  
+- **Lớp:** CSE703010-1-3-25-LT4  
 - **Email:** anhquocydkl@gmail.com
 - **GitHub:** https://github.com/AnhQuocs
 
