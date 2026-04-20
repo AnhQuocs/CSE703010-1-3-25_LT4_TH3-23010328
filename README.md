@@ -48,14 +48,30 @@ Bài thực hành này yêu cầu thiết kế và xây dựng 8 chương trình
 
 ```
 CSE703010-1-3-25_LT4_TH3-23010328/
-├── MathFunctions.kt                         # 8 hàm toán học chính
-├── TestCases.kt                             # Các test case chi tiết
-├── BLACK_BOX_TESTING_DOCUMENTATION.md       # Tài liệu kiểm thử
-├── DETAILED_BLACK_BOX_TESTING_ANALYSIS.md   # Phân tích chi tiết
-├── TEST_RESULTS.md                          # Kết quả chạy test
-└── README.md                                # File này
+├── .gitignore                               # Git ignore configuration
+├── README.md                                # Tài liệu chính (repo root)
+└── CSE703010-1-3-25_LT4_TH3-23010328/
+    ├── MathFunctions.kt                     # 8 hàm toán học chính
+    ├── TestCases.kt                         # Các test case chi tiết (56 test cases)
+    ├── TestCases.jar                        # File JAR biên dịch (IGNORED)
+    ├── BLACK_BOX_TESTING_DOCUMENTATION.md   # Tài liệu kiểm thử (8 bài toán)
+    ├── DETAILED_BLACK_BOX_TESTING_ANALYSIS.md # Phân tích chi tiết
+    └── TEST_RESULTS.md                      # Kết quả chạy test (56/56 PASS)
 
 ```
+
+### Giải Thích Cấu Trúc:
+- **Repository Root (`/`):**
+  - `.gitignore` - Cấu hình để bỏ qua file JAR
+  - `README.md` - Tài liệu chính hiển thị trên GitHub
+  
+- **Project Folder (`CSE703010-1-3-25_LT4_TH3-23010328/`):**
+  - `MathFunctions.kt` - Chứa 8 hàm toán học + input validation + exception handling
+  - `TestCases.kt` - Chứa 56 test case chi tiết với output kiểm tra từng case
+  - `TestCases.jar` - File JAR compiled (được ignore, không push lên GitHub)
+  - `BLACK_BOX_TESTING_DOCUMENTATION.md` - Phân lớp tương đương + giá trị biên cho 8 bài
+  - `DETAILED_BLACK_BOX_TESTING_ANALYSIS.md` - Phân tích chi tiết về các kỹ thuật kiểm thử
+  - `TEST_RESULTS.md` - Kết quả chạy tất cả 56 test case
 
 ---
 
@@ -174,6 +190,14 @@ Chương trình sẽ in ra từng test case với:
 
 ## 📝 Mô Tả Các File
 
+### 0. **.gitignore** (Repository Root)
+Git configuration file:
+```
+TestCases.jar
+CSE703010-1-3-25_LT4_TH3-23010328/TestCases.jar
+```
+**Mục đích:** Bỏ qua file JAR compiled để tránh lỡ đẩy file lớn lên GitHub, người dùng có thể compile lại từ source.
+
 ### 1. **MathFunctions.kt** (170 dòng)
 Chứa 8 hàm toán học chính:
 - `calculateRectanglePerimeter()` - Chu vi hình chữ nhật
@@ -268,7 +292,9 @@ Kết quả chạy test:
 - [x] Issue #1 - Valid data test cases
 - [x] Issue #2 - Invalid/Boundary/Exception test cases
 - [x] 2 commits tương ứng với 2 issues
-- [x] Mã nguồn trên GitHub
+- [x] .gitignore file để bỏ qua TestCases.jar
+- [x] README.md ở repo root để hiển thị tài liệu chính
+- [x] Mã nguồn trên GitHub (trong thư mục CSE703010-1-3-25_LT4_TH3-23010328)
 - [x] Tài liệu đầy đủ
 - [x] Kết quả test trên GitHub
 
